@@ -1,7 +1,7 @@
 local S = armor_addon.get_translator
 
 local craft_ingreds = {
-	rainbow = "nyancats_plus:rainbow_shard",
+  rainbow = "nyancats_plus:rainbow_shard",
         waffle = "armor_addon:waffleblock",
         obsidian = "default:obsidian",
         chocolate = "farming:chocolate_dark",
@@ -31,129 +31,129 @@ local craft_ingreds = {
 }
 
 for k, v in pairs(craft_ingreds) do
-	minetest.register_craft({
-		output = "armor_addon:helmet_"..k,
-		recipe = {
-			{v,   v,  v},
-			{v,  "",  v},
-			{"", "", ""},
-		},
-	})
-	minetest.register_craft({
-		output = "armor_addon:chestplate_"..k,
-		recipe = {
-			{v, "", v},
-			{v,  v, v},
-			{v,  v, v},
-		},
-	})
-	minetest.register_craft({
-		output = "armor_addon:leggings_"..k,
-		recipe = {
-			{v,  v, v},
-			{v, "", v},
-			{v, "", v},
-		},
-	})
-	minetest.register_craft({
-		output = "armor_addon:boots_"..k,
-		recipe = {
-			{v, "", v},
-			{v, "", v},
-		},
-	})
-	minetest.register_craft({
-		output = "armor_addon:shield_"..k,
-		recipe = {
-			{v,  v,  v},
-			{v,  v,  v},
-			{"", v, ""},
-		},
-	})
+  minetest.register_craft({
+    output = "armor_addon:helmet_"..k,
+    recipe = {
+      {v,   v,  v},
+      {v,  "",  v},
+      {"", "", ""},
+    },
+  })
+  minetest.register_craft({
+    output = "armor_addon:chestplate_"..k,
+    recipe = {
+      {v, "", v},
+      {v,  v, v},
+      {v,  v, v},
+    },
+  })
+  minetest.register_craft({
+    output = "armor_addon:leggings_"..k,
+    recipe = {
+      {v,  v, v},
+      {v, "", v},
+      {v, "", v},
+    },
+  })
+  minetest.register_craft({
+    output = "armor_addon:boots_"..k,
+    recipe = {
+      {v, "", v},
+      {v, "", v},
+    },
+  })
+  minetest.register_craft({
+    output = "armor_addon:shield_"..k,
+    recipe = {
+      {v,  v,  v},
+      {v,  v,  v},
+      {"", v, ""},
+    },
+  })
 end
 minetest.register_craft({
-	output = 'armor_addon:waffleblock',
-	recipe = {
-		{'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
-		{'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
-		{'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
-	}
+  output = 'armor_addon:waffleblock',
+  recipe = {
+    {'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
+    {'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
+    {'waffles:large_waffle', 'waffles:large_waffle', 'waffles:large_waffle'},
+  }
 })
 minetest.register_craft({
-	output = 'waffles:large_waffle 9',
-	recipe = {
-		{'armor_addon:waffleblock'},
-	}
+  output = 'waffles:large_waffle 9',
+  recipe = {
+    {'armor_addon:waffleblock'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:ibrogblock',
-	recipe = {
-		{'default:obsidian_glass',        'xpanes:bar_flat',  'default:obsidian_glass'},
-		{       'xpanes:bar_flat', 'default:obsidian_glass',         'xpanes:bar_flat'},
-		{'default:obsidian_glass',        'xpanes:bar_flat',  'default:obsidian_glass'},
+  output = 'armor_addon:ibrogblock',
+  recipe = {
+    {'default:obsidian_glass',        'xpanes:bar_flat',  'default:obsidian_glass'},
+    {       'xpanes:bar_flat', 'default:obsidian_glass',         'xpanes:bar_flat'},
+    {'default:obsidian_glass',        'xpanes:bar_flat',  'default:obsidian_glass'},
   }
 })
 minetest.register_craftitem ("armor_addon:bonepile", {
-	description = S("Bone Pile"),
-	inventory_image = "armor_addon_bone_pile.png",
+  description = S("Bone Pile"),
+  inventory_image = "armor_addon_bone_pile.png",
 })
 minetest.register_craftitem ("armor_addon:boneplate", {
-	description = S("Bone Plate"),
-	inventory_image = "armor_addon_bone_plate.png",
+  description = S("Bone Plate"),
+  inventory_image = "armor_addon_bone_plate.png",
 })
 minetest.register_craft ({
-	type = "shapeless",
-	output = 'armor_addon:bonepile',
-	recipe = {"bonemeal:bone", "bonemeal:bone, bonemeal:bone"}
+  type = "shapeless",
+  output = 'armor_addon:bonepile',
+  recipe = {"bonemeal:bone", "bonemeal:bone, bonemeal:bone"}
 })
 minetest.register_craft ({
-	type = "shapeless",
-	output = 'armor_addon:bonepile 2',
-	recipe = {"bones:bones"}
+  type = "shapeless",
+  output = 'armor_addon:bonepile 2',
+  recipe = {"bones:bones"}
 })
 minetest.register_craft ({
-	output = 'armor_addon:boneplate 9',
-	recipe = {
-		{'armor_addon:bonepile', 'default:diamondblock', 'armor_addon:bonepile'},
-		{'default:diamondblock', 'armor_addon:bonepile', 'default:diamondblock'},
-		{'armor_addon:bonepile', 'default:diamondblock', 'armor_addon:bonepile'},
-	}
+  output = 'armor_addon:boneplate 9',
+  recipe = {
+    {'armor_addon:bonepile', 'default:diamondblock', 'armor_addon:bonepile'},
+    {'default:diamondblock', 'armor_addon:bonepile', 'default:diamondblock'},
+    {'armor_addon:bonepile', 'default:diamondblock', 'armor_addon:bonepile'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:boots_tacnayn',
-	recipe = {
-		{'armor_addon:boots_waffle', '', 'armor_addon:boots_rainbow'},
-		{'tac_nayn:tacnayn_rainbow', '',  'tac_nayn:tacnayn_rainbow'},
-	}
+  output = 'armor_addon:boots_tacnayn',
+  recipe = {
+    {'armor_addon:boots_waffle', '', 'armor_addon:boots_rainbow'},
+    {'tac_nayn:tacnayn_rainbow', '',  'tac_nayn:tacnayn_rainbow'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:chestplate_tacnayn',
-	recipe = {
-		{     'tac_nayn:tacnayn_rainbow',                         '',       'tac_nayn:tacnayn_rainbow'},
-		{'armor_addon:chestplate_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:chestplate_rainbow'},
-		{     'tac_nayn:tacnayn_rainbow', 'tac_nayn:tacnayn_rainbow',       'tac_nayn:tacnayn_rainbow'},
-	}
+  output = 'armor_addon:chestplate_tacnayn',
+  recipe = {
+    {     'tac_nayn:tacnayn_rainbow',                         '',       'tac_nayn:tacnayn_rainbow'},
+    {'armor_addon:chestplate_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:chestplate_rainbow'},
+    {     'tac_nayn:tacnayn_rainbow', 'tac_nayn:tacnayn_rainbow',       'tac_nayn:tacnayn_rainbow'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:helmet_tacnayn',
-	recipe = {
-		{'armor_addon:helmet_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:helmet_rainbow'},
-		{ 'tac_nayn:tacnayn_rainbow',                         '',   'tac_nayn:tacnayn_rainbow'},
-	}
+  output = 'armor_addon:helmet_tacnayn',
+  recipe = {
+    {'armor_addon:helmet_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:helmet_rainbow'},
+    { 'tac_nayn:tacnayn_rainbow',                         '',   'tac_nayn:tacnayn_rainbow'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:leggings_tacnayn',
-	recipe = {
-		{ 'tac_nayn:tacnayn_rainbow',  'tac_nayn:tacnayn_rainbow',   'tac_nayn:tacnayn_rainbow'},
-		{'armor_addon:helmet_waffle',                          '', 'armor_addon:helmet_rainbow'},
-		{ 'tac_nayn:tacnayn_rainbow',                          '',   'tac_nayn:tacnayn_rainbow'},
-	}
+  output = 'armor_addon:leggings_tacnayn',
+  recipe = {
+    { 'tac_nayn:tacnayn_rainbow',  'tac_nayn:tacnayn_rainbow',   'tac_nayn:tacnayn_rainbow'},
+    {'armor_addon:helmet_waffle',                          '', 'armor_addon:helmet_rainbow'},
+    { 'tac_nayn:tacnayn_rainbow',                          '',   'tac_nayn:tacnayn_rainbow'},
+  }
 })
 minetest.register_craft({
-	output = 'armor_addon:shield_tacnayn',
-	recipe = {
-		{'armor_addon:shield_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:shield_rainbow'},
-		{ 'tac_nayn:tacnayn_rainbow',         'tac_nayn:tacnayn',   'tac_nayn:tacnayn_rainbow'},
-		{                         '', 'tac_nayn:tacnayn_rainbow',                           ''},
-	}
+  output = 'armor_addon:shield_tacnayn',
+  recipe = {
+    {'armor_addon:shield_waffle', 'tac_nayn:tacnayn_rainbow', 'armor_addon:shield_rainbow'},
+    { 'tac_nayn:tacnayn_rainbow',         'tac_nayn:tacnayn',   'tac_nayn:tacnayn_rainbow'},
+    {                         '', 'tac_nayn:tacnayn_rainbow',                           ''},
+  }
 })
