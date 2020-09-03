@@ -1,4 +1,3 @@
-
 local S = armor_addon.get_translator
 
 -- Armors --

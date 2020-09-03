@@ -1,3 +1,5 @@
+local S = armor_addon.get_translator
+
 local craft_ingreds = {
 	rainbow = "nyancats_plus:rainbow_shard",
         waffle = "armor_addon:waffleblock",
