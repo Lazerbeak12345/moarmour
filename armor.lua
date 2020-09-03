@@ -1,90 +1,93 @@
+
+local S = armor_addon.get_translator
+
 -- Armors --
 minetest.register_tool("armor_addon:helmet_obsidian", {
-		description = "Obsidian Helmet",
+		description = S("Obsidian Helmet"),
 		inventory_image = "armor_addon_inv_helmet_obsidian.png",
 		groups = {armor_head=22.5, armor_heal=18, armor_use=300},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_obsidian", {
-		description = "Obsidian Chestplate",
+		description = S("Obsidian Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_obsidian.png",
 		groups = {armor_torso=30, armor_heal=18, armor_use=300},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_obsidian", {
-		description = "Obsidian Leggings",
+		description = S("Obsidian Leggings"),
 		inventory_image = "armor_addon_inv_leggings_obsidian.png",
 		groups = {armor_legs=30, armor_heal=18, armor_use=300},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_obsidian", {
-		description = "Obsidian Boots",
+		description = S("Obsidian Boots"),
 		inventory_image = "armor_addon_inv_boots_obsidian.png",
 		groups = {armor_feet=22.5, armor_heal=18, armor_use=300},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_obsidian", {
-		description = "Obsidian Shield",
+		description = S("Obsidian Shield"),
 		inventory_image = "armor_addon_inv_shield_obsidian.png",
 		groups = {armor_shield=22.5, armor_heal=18, armor_use=300},
 		wear = 0,
 	})
 minetest.register_tool("armor_addon:helmet_tin", {
-		description = "Tin Helmet",
+		description = S("Tin Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tin.png",
 		groups = {armor_head=6, armor_heal=0, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tin", {
-		description = "Tin Chestplate",
+		description = S("Tin Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tin.png",
 		groups = {armor_torso=12, armor_heal=0, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tin", {
-		description = "Tin Leggings",
+		description = S("Tin Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tin.png",
 		groups = {armor_legs=12, armor_heal=0, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tin", {
-		description = "Tin Boots",
+		description = S("Tin Boots"),
 		inventory_image = "armor_addon_inv_boots_tin.png",
 		groups = {armor_feet=6, armor_heal=0, armor_use=800},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tin", {
-		description = "Tin Shield",
+		description = S("Tin Shield"),
 		inventory_image = "armor_addon_inv_shield_tin.png",
 		groups = {armor_shield=6, armor_heal=0, armor_use=800},
 		wear = 0,
 	})
 minetest.register_tool("armor_addon:helmet_brick", {
-		description = "Brick Helmet",
+		description = S("Brick Helmet"),
 		inventory_image = "armor_addon_inv_helmet_brick.png",
 		groups = {armor_head=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_brick", {
-		description = "Brick Chestplate",
+		description = S("Brick Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_brick.png",
 		groups = {armor_torso=15, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_brick", {
-		description = "Brick Leggings",
+		description = S("Brick Leggings"),
 		inventory_image = "armor_addon_inv_leggings_brick.png",
 		groups = {armor_legs=15, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_brick", {
-		description = "Brick Boots",
+		description = S("Brick Boots"),
 		inventory_image = "armor_addon_inv_boots_brick.png",
 		groups = {armor_feet=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_brick", {
-		description = "Brick Shield",
+		description = S("Brick Shield"),
 		inventory_image = "armor_addon_inv_shield_brick.png",
 		groups = {armor_shield=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
 		wear = 0,
@@ -93,61 +96,61 @@ minetest.register_tool("armor_addon:helmet_brick", {
 if minetest.get_modpath("moreores") then
 
 minetest.register_tool("armor_addon:helmet_silver", {
-		description = "Silver Helmet",
+		description = S("Silver Helmet"),
 		inventory_image = "armor_addon_inv_helmet_silver.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=700},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_silver", {
-		description = "Silver Chestplate",
+		description = S("Silver Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_silver.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=700},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_silver", {
-		description = "Silver Leggings",
+		description = S("Silver Leggings"),
 		inventory_image = "armor_addon_inv_leggings_silver.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=700},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_silver", {
-		description = "Silver Boots",
+		description = S("Silver Boots"),
 		inventory_image = "armor_addon_inv_boots_silver.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=700},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_silver", {
-		description = "Silver Shield",
+		description = S("Silver Shield"),
 		inventory_image = "armor_addon_inv_shield_silver.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=700},
 		wear = 0,
 	})
 minetest.register_tool("armor_addon:helmet_rhodo", {
-		description = "Rhodochrosite Helmet",
+		description = S("Rhodochrosite Helmet"),
 		inventory_image = "armor_addon_inv_helmet_rhodo.png",
 		groups = {armor_head=15, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_rhodo", {
-		description = "Rhodochrosite Chestplate",
+		description = S("Rhodochrosite Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_rhodo.png",
 		groups = {armor_torso=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_rhodo", {
-		description = "Rhodochrosite Leggings",
+		description = S("Rhodochrosite Leggings"),
 		inventory_image = "armor_addon_inv_leggings_rhodo.png",
 		groups = {armor_legs=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_rhodo", {
-		description = "Rhodochrosite Boots",
+		description = S("Rhodochrosite Boots"),
 		inventory_image = "armor_addon_inv_boots_rhodo.png",
 		groups = {armor_feet=15, armor_heal=12, armor_use=200},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_rhodo", {
-		description = "Rhodochrosite Shield",
+		description = S("Rhodochrosite Shield"),
 		inventory_image = "armor_addon_inv_shield_rhodo.png",
 		groups = {armor_shield=15, armor_heal=12, armor_use=200},
 		wear = 0,
@@ -158,31 +161,31 @@ end
 if minetest.get_modpath("nyancats_plus") then
 
 minetest.register_tool("armor_addon:helmet_rainbow", {
-		description = "Rainbow Helmet",
+		description = S("Rainbow Helmet"),
 		inventory_image = "armor_addon_inv_helmet_rainbow.png",
 		groups = {armor_head=16.5, armor_heal=12, armor_use=0},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_rainbow", {
-		description = "Rainbow Chestplate",
+		description = S("Rainbow Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_rainbow.png",
 		groups = {armor_torso=22, armor_heal=12, armor_use=0},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_rainbow", {
-		description = "Rainbow Leggings",
+		description = S("Rainbow Leggings"),
 		inventory_image = "armor_addon_inv_leggings_rainbow.png",
 		groups = {armor_legs=22, armor_heal=12, armor_use=0},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_rainbow", {
-		description = "Rainbow Boots",
+		description = S("Rainbow Boots"),
 		inventory_image = "armor_addon_inv_boots_rainbow.png",
 		groups = {armor_feet=16.5, armor_heal=12, armor_use=0},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_rainbow", {
-		description = "Rainbow Shield",
+		description = S("Rainbow Shield"),
 		inventory_image = "armor_addon_inv_shield_rainbow.png",
 		groups = {armor_shield=16.5, armor_heal=12, armor_use=0},
 		wear = 0,
@@ -193,31 +196,31 @@ end
 if minetest.get_modpath("waffles") then
 
 minetest.register_tool("armor_addon:helmet_waffle", {
-		description = "Waffle Helmet",
+		description = S("Waffle Helmet"),
 		inventory_image = "armor_addon_inv_helmet_waffle.png",
 		groups = {armor_head=15, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_waffle", {
-		description = "Waffle Chestplate",
+		description = S("Waffle Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_waffle.png",
 		groups = {armor_torso=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_waffle", {
-		description = "Waffle Leggings",
+		description = S("Waffle Leggings"),
 		inventory_image = "armor_addon_inv_leggings_waffle.png",
 		groups = {armor_legs=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_waffle", {
-		description = "Waffle Boots",
+		description = S("Waffle Boots"),
 		inventory_image = "armor_addon_inv_boots_waffle.png",
 		groups = {armor_feet=15, armor_heal=12, armor_use=200},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_waffle", {
-		description = "Waffle Shield",
+		description = S("Waffle Shield"),
 		inventory_image = "armor_addon_inv_shield_waffle.png",
 		groups = {armor_shield=15, armor_heal=12, armor_use=200},
 		wear = 0,
@@ -228,31 +231,31 @@ end
 if minetest.get_modpath("farming") then
 
 minetest.register_tool("armor_addon:helmet_chocolate", {
-		description = "Chocolate Helmet",
+		description = S("Chocolate Helmet"),
 		inventory_image = "armor_addon_inv_helmet_chocolate.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_chocolate", {
-		description = "Chocolate Chestplate",
+		description = S("Chocolate Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_chocolate.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_chocolate", {
-		description = "Chocolate Leggings",
+		description = S("Chocolate Leggings"),
 		inventory_image = "armor_addon_inv_leggings_chocolate.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=800},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_chocolate", {
-		description = "Chocolate Boots",
+		description = S("Chocolate Boots"),
 		inventory_image = "armor_addon_inv_boots_chocolate.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=800},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_chocolate", {
-		description = "Chocolate Shield",
+		description = S("Chocolate Shield"),
 		inventory_image = "armor_addon_inv_shield_chocolate.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=800},
 		wear = 0,
@@ -263,31 +266,31 @@ end
 if minetest.get_modpath("nanotech") then
 
 minetest.register_tool("armor_addon:helmet_carbonfiber", {
-		description = "Carbonfiber Helmet",
+		description = S("Carbonfiber Helmet"),
 		inventory_image = "armor_addon_inv_helmet_carbonfiber.png",
 		groups = {armor_head=22.5, armor_heal=18, armor_use=165},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_carbonfiber", {
-		description = "Carbonfiber Chestplate",
+		description = S("Carbonfiber Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_carbonfiber.png",
 		groups = {armor_torso=30, armor_heal=18, armor_use=165},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_carbonfiber", {
-		description = "Carbonfiber Leggings",
+		description = S("Carbonfiber Leggings"),
 		inventory_image = "armor_addon_inv_leggings_carbonfiber.png",
 		groups = {armor_legs=30, armor_heal=18, armor_use=165},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_carbonfiber", {
-		description = "Carbonfiber Boots",
+		description = S("Carbonfiber Boots"),
 		inventory_image = "armor_addon_inv_boots_carbonfiber.png",
 		groups = {armor_feet=22.5, armor_heal=18, armor_use=165},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_carbonfiber", {
-		description = "Carbonfiber Shield",
+		description = S("Carbonfiber Shield"),
 		inventory_image = "armor_addon_inv_shield_carbonfiber.png",
 		groups = {armor_shield=22.5, armor_heal=18, armor_use=165},
 		wear = 0,
@@ -298,31 +301,31 @@ end
 if minetest.get_modpath("xpanes") then
 
 minetest.register_tool("armor_addon:helmet_ibrog", {
-		description = "Ibrog Helmet",
+		description = S("Ibrog Helmet"),
 		inventory_image = "armor_addon_inv_helmet_ibrog.png",
 		groups = {armor_head=15, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_ibrog", {
-		description = "Ibrog Chestplate",
+		description = S("Ibrog Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_ibrog.png",
 		groups = {armor_torso=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_ibrog", {
-		description = "Ibrog Leggings",
+		description = S("Ibrog Leggings"),
 		inventory_image = "armor_addon_inv_leggings_ibrog.png",
 		groups = {armor_legs=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_ibrog", {
-		description = "Ibrog Boots",
+		description = S("Ibrog Boots"),
 		inventory_image = "armor_addon_inv_boots_ibrog.png",
 		groups = {armor_feet=15, armor_heal=12, armor_use=200},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_ibrog", {
-		description = "Ibrog Shield",
+		description = S("Ibrog Shield"),
 		inventory_image = "armor_addon_inv_shield_ibrog.png",
 		groups = {armor_shield=15, armor_heal=12, armor_use=200},
 		wear = 0,
@@ -333,31 +336,31 @@ end
 if minetest.get_modpath("even_mosword") then
 
 minetest.register_tool("armor_addon:helmet_hero", {
-		description = "Hero Mese Helmet",
+		description = S("Hero Mese Helmet"),
 		inventory_image = "armor_addon_inv_helmet_hero.png",
 		groups = {armor_head=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_hero", {
-		description = "Hero Mese Chestplate",
+		description = S("Hero Mese Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_hero.png",
 		groups = {armor_torso=75, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_hero", {
-		description = "Hero Mese Leggings",
+		description = S("Hero Mese Leggings"),
 		inventory_image = "armor_addon_inv_leggings_hero.png",
 		groups = {armor_legs=75, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_hero", {
-		description = "Hero Mese Boots",
+		description = S("Hero Mese Boots"),
 		inventory_image = "armor_addon_inv_boots_hero.png",
 		groups = {armor_feet=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_hero", {
-		description = "Hero Mese Shield",
+		description = S("Hero Mese Shield"),
 		inventory_image = "armor_addon_inv_shield_hero.png",
 		groups = {armor_shield=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
 		wear = 0,
@@ -368,31 +371,31 @@ end
 if minetest.get_modpath("candycane") then
 
 minetest.register_tool("armor_addon:helmet_cane", {
-		description = "Candycane Helmet",
+		description = S("Candycane Helmet"),
 		inventory_image = "armor_addon_inv_helmet_cane.png",
 		groups = {armor_head=15, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_cane", {
-		description = "Candycane Chestplate",
+		description = S("Candycane Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_cane.png",
 		groups = {armor_torso=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_cane", {
-		description = "Candycane Leggings",
+		description = S("Candycane Leggings"),
 		inventory_image = "armor_addon_inv_leggings_cane.png",
 		groups = {armor_legs=20, armor_heal=12, armor_use=200},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_cane", {
-		description = "Candycane Boots",
+		description = S("Candycane Boots"),
 		inventory_image = "armor_addon_inv_boots_cane.png",
 		groups = {armor_feet=15, armor_heal=12, armor_use=200},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_cane", {
-		description = "Candycane Shield",
+		description = S("Candycane Shield"),
 		inventory_image = "armor_addon_inv_shield_cane.png",
 		groups = {armor_shield=15, armor_heal=12, armor_use=200},
 		wear = 0,
@@ -403,31 +406,31 @@ end
 if minetest.get_modpath("bones") then
 
 minetest.register_tool("armor_addon:helmet_skeletal", {
-		description = "Skeletal Helmet",
+		description = S("Skeletal Helmet"),
 		inventory_image = "armor_addon_inv_helmet_skeletal.png",
 		groups = {armor_head=30, armor_heal=15, armor_use=80},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_skeletal", {
-		description = "Skeletal Chestplate",
+		description = S("Skeletal Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_skeletal.png",
 		groups = {armor_torso=40, armor_heal=15, armor_use=80},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_skeletal", {
-		description = "Skeletal Leggings",
+		description = S("Skeletal Leggings"),
 		inventory_image = "armor_addon_inv_leggings_skeletal.png",
 		groups = {armor_legs=40, armor_heal=15, armor_use=80},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_skeletal", {
-		description = "Skeletal Boots",
+		description = S("Skeletal Boots"),
 		inventory_image = "armor_addon_inv_boots_skeletal.png",
 		groups = {armor_feet=30, armor_heal=15, armor_use=80},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_skeletal", {
-		description = "Skeletal Shield",
+		description = S("Skeletal Shield"),
 		inventory_image = "armor_addon_inv_shield_skeletal.png",
 		groups = {armor_shield=30, armor_heal=15, armor_use=80},
 		wear = 0,
@@ -438,31 +441,31 @@ end
 if minetest.get_modpath("nyancats_plus") and minetest.get_modpath("waffles") and minetest.get_modpath("tac_nayn") then
 
 minetest.register_tool("armor_addon:helmet_tacnayn", {
-		description = "Tac Nayn Helmet",
+		description = S("Tac Nayn Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tacnayn.png",
 		groups = {armor_head=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tacnayn", {
-		description = "Tac Nayn Chestplate",
+		description = S("Tac Nayn Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tacnayn.png",
 		groups = {armor_torso=40, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tacnayn", {
-		description = "Tac Nayn Leggings",
+		description = S("Tac Nayn Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tacnayn.png",
 		groups = {armor_legs=40, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tacnayn", {
-		description = "Tac Nayn Boots",
+		description = S("Tac Nayn Boots"),
 		inventory_image = "armor_addon_inv_boots_tacnayn.png",
 		groups = {armor_feet=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tacnayn", {
-		description = "Tac Nayn Shield",
+		description = S("Tac Nayn Shield"),
 		inventory_image = "armor_addon_inv_shield_tacnayn.png",
 		groups = {armor_shield=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
 		wear = 0,
@@ -473,31 +476,31 @@ end
 if minetest.get_modpath("sky_tools") then
 
 minetest.register_tool("armor_addon:helmet_sky", {
-		description = "Sky Helmet",
+		description = S("Sky Helmet"),
 		inventory_image = "armor_addon_inv_helmet_sky.png",
 		groups = {armor_head=15, armor_heal=14, armor_use=175},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_sky", {
-		description = "Sky Chestplate",
+		description = S("Sky Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_sky.png",
 		groups = {armor_torso=20, armor_heal=14, armor_use=175},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_sky", {
-		description = "Sky Leggings",
+		description = S("Sky Leggings"),
 		inventory_image = "armor_addon_inv_leggings_sky.png",
 		groups = {armor_legs=20, armor_heal=14, armor_use=175},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_sky", {
-		description = "Sky Boots",
+		description = S("Sky Boots"),
 		inventory_image = "armor_addon_inv_boots_sky.png",
 		groups = {armor_feet=15, armor_heal=14, armor_use=175},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_sky", {
-		description = "Sky Shield",
+		description = S("Sky Shield"),
 		inventory_image = "armor_addon_inv_shield_sky.png",
 		groups = {armor_shield=15, armor_heal=14, armor_use=175},
 		wear = 0,
@@ -508,31 +511,31 @@ end
 if minetest.get_modpath("emeralds") then
 
 minetest.register_tool("armor_addon:helmet_emeralds", {
-		description = "Emeralds Helmet",
+		description = S("Emeralds Helmet"),
 		inventory_image = "armor_addon_inv_helmet_emeralds.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_emeralds", {
-		description = "Emeralds Chestplate",
+		description = S("Emeralds Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_emeralds.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_emeralds", {
-		description = "Emeralds Leggings",
+		description = S("Emeralds Leggings"),
 		inventory_image = "armor_addon_inv_leggings_emeralds.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_emeralds", {
-		description = "Emeralds Boots",
+		description = S("Emeralds Boots"),
 		inventory_image = "armor_addon_inv_boots_emeralds.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_emeralds", {
-		description = "Emeralds Shield",
+		description = S("Emeralds Shield"),
 		inventory_image = "armor_addon_inv_shield_emeralds.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70},
 		wear = 0,
@@ -543,186 +546,186 @@ end
 if minetest.get_modpath("gems") then
 
 minetest.register_tool("armor_addon:helmet_emerald", {
-		description = "Emerald Helmet",
+		description = S("Emerald Helmet"),
 		inventory_image = "armor_addon_inv_helmet_emerald.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70, radiation=15},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_emerald", {
-		description = "Emerald Chestplate",
+		description = S("Emerald Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_emerald.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70, radiation=15},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_emerald", {
-		description = "Emerald Leggings",
+		description = S("Emerald Leggings"),
 		inventory_image = "armor_addon_inv_leggings_emerald.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70, radiation=15},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_emerald", {
-		description = "Emerald Boots",
+		description = S("Emerald Boots"),
 		inventory_image = "armor_addon_inv_boots_emerald.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70, radiation=15},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_emerald", {
-		description = "Emerald Shield",
+		description = S("Emerald Shield"),
 		inventory_image = "armor_addon_inv_shield_emerald.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70, radiation=15},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_pearl", {
-		description = "Pearl Helmet",
+		description = S("Pearl Helmet"),
 		inventory_image = "armor_addon_inv_helmet_pearl.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70, armor_water=1},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_pearl", {
-		description = "Pearl Chestplate",
+		description = S("Pearl Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_pearl.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70, armor_water=1},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_pearl", {
-		description = "Pearl Leggings",
+		description = S("Pearl Leggings"),
 		inventory_image = "armor_addon_inv_leggings_pearl.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70, armor_water=1},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_pearl", {
-		description = "Pearl Boots",
+		description = S("Pearl Boots"),
 		inventory_image = "armor_addon_inv_boots_pearl.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70, armor_water=1},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_pearl", {
-		description = "Pearl Shield",
+		description = S("Pearl Shield"),
 		inventory_image = "armor_addon_inv_shield_pearl.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70, armor_water=1},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_amethyst", {
-		description = "Amethyst Helmet",
+		description = S("Amethyst Helmet"),
 		inventory_image = "armor_addon_inv_helmet_amethyst.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70, physics_speed=0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_amethyst", {
-		description = "Amethyst Chestplate",
+		description = S("Amethyst Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_amethyst.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70, physics_speed=0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_amethyst", {
-		description = "Amethyst Leggings",
+		description = S("Amethyst Leggings"),
 		inventory_image = "armor_addon_inv_leggings_amethyst.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70, physics_speed=0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_amethyst", {
-		description = "Amethyst Boots",
+		description = S("Amethyst Boots"),
 		inventory_image = "armor_addon_inv_boots_amethyst.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70, physics_speed=0.20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_amethyst", {
-		description = "Amethyst Shield",
+		description = S("Amethyst Shield"),
 		inventory_image = "armor_addon_inv_shield_amethyst.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70, physics_speed=0.20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_sapphire", {
-		description = "Sapphire Helmet",
+		description = S("Sapphire Helmet"),
 		inventory_image = "armor_addon_inv_helmet_sapphire.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_sapphire", {
-		description = "Sapphire Chestplate",
+		description = S("Sapphire Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_sapphire.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70, physics_gravity=-0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_sapphire", {
-		description = "Sapphire Leggings",
+		description = S("Sapphire Leggings"),
 		inventory_image = "armor_addon_inv_leggings_sapphire.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70, physics_gravity=-0.20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_sapphire", {
-		description = "Sapphire Boots",
+		description = S("Sapphire Boots"),
 		inventory_image = "armor_addon_inv_boots_sapphire.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_sapphire", {
-		description = "Sapphire Shield",
+		description = S("Sapphire Shield"),
 		inventory_image = "armor_addon_inv_shield_sapphire.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_ruby", {
-		description = "Ruby Helmet",
+		description = S("Ruby Helmet"),
 		inventory_image = "armor_addon_inv_helmet_ruby.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=70, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_ruby", {
-		description = "Ruby Chestplate",
+		description = S("Ruby Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_ruby.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=70, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_ruby", {
-		description = "Ruby Leggings",
+		description = S("Ruby Leggings"),
 		inventory_image = "armor_addon_inv_leggings_ruby.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=70, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_ruby", {
-		description = "Ruby Boots",
+		description = S("Ruby Boots"),
 		inventory_image = "armor_addon_inv_boots_ruby.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=70, armor_fire=5},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_ruby", {
-		description = "Ruby Shield",
+		description = S("Ruby Shield"),
 		inventory_image = "armor_addon_inv_shield_ruby.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=70, armor_fire=5},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_shadow", {
-		description = "Shadow Helmet",
+		description = S("Shadow Helmet"),
 		inventory_image = "armor_addon_inv_helmet_shadow.png",
 		groups = {armor_head=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_shadow", {
-		description = "Shadow Chestplate",
+		description = S("Shadow Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_shadow.png",
 		groups = {armor_torso=15, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_shadow", {
-		description = "Shadow Leggings",
+		description = S("Shadow Leggings"),
 		inventory_image = "armor_addon_inv_leggings_shadow.png",
 		groups = {armor_legs=15, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_shadow", {
-		description = "Shadow Boots",
+		description = S("Shadow Boots"),
 		inventory_image = "armor_addon_inv_boots_shadow.png",
 		groups = {armor_feet=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_shadow", {
-		description = "Shadow Shield",
+		description = S("Shadow Shield"),
 		inventory_image = "armor_addon_inv_shield_shadow.png",
 		groups = {armor_shield=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
 		wear = 0,
@@ -733,155 +736,155 @@ end
 if minetest.get_modpath("terumet") then
 
 minetest.register_tool("armor_addon:helmet_cgls", {
-		description = "Coreglass Helmet",
+		description = S("Coreglass Helmet"),
 		inventory_image = "armor_addon_inv_helmet_cgls.png",
 		groups = {armor_head=19, armor_heal=2, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_cgls", {
-		description = "Coreglass Chestplate",
+		description = S("Coreglass Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_cgls.png",
 		groups = {armor_torso=25, armor_heal=2, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_cgls", {
-		description = "Coreglass Leggings",
+		description = S("Coreglass Leggings"),
 		inventory_image = "armor_addon_inv_leggings_cgls.png",
 		groups = {armor_legs=25, armor_heal=2, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_cgls", {
-                description = "Coreglass Boots",
+                description = S("Coreglass Boots"),
 		inventory_image = "armor_addon_inv_boots_cgls.png",
 		groups = {armor_feet=19, armor_heal=2, armor_use=20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_cgls", {
-		description = "Coreglass Shield",
+		description = S("Coreglass Shield"),
 		inventory_image = "armor_addon_inv_shield_cgls.png",
 		groups = {armor_shield=19, armor_heal=2, armor_use=20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_tcop", {
-		description = "Terucopper Helmet",
+		description = S("Terucopper Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tcop.png",
 		groups = {armor_head=13, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tcop", {
-		description = "Terucopper Chestplate",
+		description = S("Terucopper Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tcop.png",
 		groups = {armor_torso=17.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tcop", {
-		description = "Terucopper Leggings",
+		description = S("Terucopper Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tcop.png",
 		groups = {armor_legs=17.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tcop", {
-		description = "Terucopper Boots",
+		description = S("Terucopper Boots"),
 		inventory_image = "armor_addon_inv_boots_tcop.png",
 		groups = {armor_feet=13, armor_heal=1, armor_use=20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tcop", {
-		description = "Terucopper Shield",
+		description = S("Terucopper Shield"),
 		inventory_image = "armor_addon_inv_shield_tcop.png",
 		groups = {armor_shield=13, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_tcha", {
-		description = "Teruchalcum Helmet",
+		description = S("Teruchalcum Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tcha.png",
 		groups = {armor_head=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tcha", {
-		description = "Teruchalcum Chestplate",
+		description = S("Teruchalcum Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tcha.png",
 		groups = {armor_torso=22, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tcha", {
-		description = "Teruchalcum Leggings",
+		description = S("Teruchalcum Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tcha.png",
 		groups = {armor_legs=22, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tcha", {
-		description = "Teruchalcum Boots",
+		description = S("Teruchalcum Boots"),
 		inventory_image = "armor_addon_inv_boots_tcha.png",
 		groups = {armor_feet=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tcha", {
-		description = "Teruchalcum Shield",
+		description = S("Teruchalcum Shield"),
 		inventory_image = "armor_addon_inv_shield_tcha.png",
 		groups = {armor_shield=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_tgol", {
-		description = "Terugold Helmet",
+		description = S("Terugold Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tgol.png",
 		groups = {armor_head=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tgol", {
-		description = "Terugold Chestplate",
+		description = S("Terugold Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tgol.png",
 		groups = {armor_torso=22, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tgol", {
-		description = "Terugold Leggings",
+		description = S("Terugold Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tgol.png",
 		groups = {armor_legs=22, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tgol", {
-		description = "Terugold Boots",
+		description = S("Terugold Boots"),
 		inventory_image = "armor_addon_inv_boots_tgol.png",
 		groups = {armor_feet=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tgol", {
-		description = "Terugold Shield",
+		description = S("Terugold Shield"),
 		inventory_image = "armor_addon_inv_shield_tgol.png",
 		groups = {armor_shield=16.5, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 
 minetest.register_tool("armor_addon:helmet_tste", {
-		description = "Terusteel Helmet",
+		description = S("Terusteel Helmet"),
 		inventory_image = "armor_addon_inv_helmet_tste.png",
 		groups = {armor_head=15, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:chestplate_tste", {
-		description = "Terusteel Chestplate",
+		description = S("Terusteel Chestplate"),
 		inventory_image = "armor_addon_inv_chestplate_tste.png",
 		groups = {armor_torso=20, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:leggings_tste", {
-		description = "Terusteel Leggings",
+		description = S("Terusteel Leggings"),
 		inventory_image = "armor_addon_inv_leggings_tste.png",
 		groups = {armor_legs=20, armor_heal=1, armor_use=20},
 		wear = 0,
 	})
 	minetest.register_tool("armor_addon:boots_tste", {
-		description = "Terusteel Boots",
+		description = S("Terusteel Boots"),
 		inventory_image = "armor_addon_inv_boots_tste.png",
 		groups = {armor_feet=15, armor_heal=1, armor_use=20},
 		wear = 0,
         })
         minetest.register_tool("armor_addon:shield_tste", {
-		description = "Terusteel Shield",
+		description = S("Terusteel Shield"),
 		inventory_image = "armor_addon_inv_shield_tste.png",
 		groups = {armor_shield=15, armor_heal=1, armor_use=20},
 		wear = 0,
