@@ -71,6 +71,9 @@ for k, v in pairs(craft_ingreds) do
     },
   })
 end
+
+
+
 minetest.register_craft({
   output = 'armor_addon:waffleblock',
   recipe = {
@@ -85,6 +88,7 @@ minetest.register_craft({
     {'armor_addon:waffleblock'},
   }
 })
+
 minetest.register_craft({
   output = 'armor_addon:ibrogblock',
   recipe = {
@@ -93,23 +97,26 @@ minetest.register_craft({
     {'default:obsidian_glass',        'xpanes:bar_flat',  'default:obsidian_glass'},
   }
 })
+
 minetest.register_craftitem ("armor_addon:bonepile", {
   description = S("Bone Pile"),
-  inventory_image = "armor_addon_bone_pile.png",
-})
-minetest.register_craftitem ("armor_addon:boneplate", {
-  description = S("Bone Plate"),
-  inventory_image = "armor_addon_bone_plate.png",
+  inventory_image = "armor_addon_bone_pile.png"
 })
 minetest.register_craft ({
   type = "shapeless",
   output = 'armor_addon:bonepile',
-  recipe = {"bonemeal:bone", "bonemeal:bone, bonemeal:bone"}
+  recipe = {"bonemeal:bone", "bonemeal:bone", "bonemeal:bone"}
 })
 minetest.register_craft ({
-  type = "shapeless",
-  output = 'armor_addon:bonepile 2',
-  recipe = {"bones:bones"}
+  output = 'armor_addon:bonepile 4',
+  recipe = {
+    {"bones:bones", "bones:bones"},
+    {"bones:bones", "bones:bones"}
+  }
+})
+minetest.register_craftitem ("armor_addon:boneplate", {
+  description = S("Bone Plate"),
+  inventory_image = "armor_addon_bone_plate.png"
 })
 minetest.register_craft ({
   output = 'armor_addon:boneplate 9',
