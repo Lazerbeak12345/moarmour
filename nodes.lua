@@ -1,9 +1,9 @@
-local S = armor_addon.get_translator
+local S = moarmour.get_translator
 
-minetest.register_node("armor_addon:ibrogblock", {
+minetest.register_node("moarmour:ibrogblock", {
   description = S("Ibrog"),
   drawtype = "glasslike_framed_optional",
-  tiles = {"armor_addon_ibrogblock.png"},
+  tiles = {"moarmour_ibrogblock.png"},
   paramtype = "light",
   is_ground_content = false,
   sunlight_propagates = true,
@@ -11,11 +11,11 @@ minetest.register_node("armor_addon:ibrogblock", {
   groups = {cracky = 3},
 })
 
-minetest.register_node("armor_addon:waffleblock", {
+minetest.register_node("moarmour:waffleblock", {
   description = S("Waffle Block"),
-  tiles = {"armor_addon_waffleblock.png"},
+  tiles = {"moarmour_waffleblock.png"},
   is_ground_content = true,
   groups = {choppy = 3, oddly_breakable_by_hand = 2, flammable = 3, wood = 1},
-  drop = 'armor_addon:waffleblock',
+  drop = 'moarmour:waffleblock',
   sounds = default.node_sound_wood_defaults(),
 })

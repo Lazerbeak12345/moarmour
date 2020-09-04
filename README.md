@@ -1,4 +1,4 @@
-armor_addon
+moarmour
 -----------
 Some random armors for Minetest.
 

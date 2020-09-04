@@ -1,4 +1,4 @@
-# textdomain: armor_addon
+# textdomain: moarmour
 
 
 ### armor.lua ###

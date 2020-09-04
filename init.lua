@@ -1,12 +1,12 @@
 local S = minetest.get_translator(minetest.get_current_modname())
-local armor_addon_path = minetest.get_modpath(minetest.get_current_modname())
+local moarmour_path = minetest.get_modpath(minetest.get_current_modname())
 
-armor_addon = {
-  path = armor_addon_path,
+moarmour = {
+  path = moarmour_path,
   get_translator = S
 }
 
 -- Loading the files --
-dofile(armor_addon_path.."/nodes.lua")
-dofile(armor_addon_path.."/crafts.lua")
-dofile(armor_addon_path.."/armor.lua")
+dofile(moarmour_path.."/nodes.lua")
+dofile(moarmour_path.."/crafts.lua")
+dofile(moarmour_path.."/armor.lua")
