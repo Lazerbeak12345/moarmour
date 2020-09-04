@@ -1,6 +1,6 @@
 local S = moarmour.get_translator
 
--- Armors --
+-- Armours --
 minetest.register_tool("moarmour:helmet_obsidian", {
     description = S("Obsidian Helmet"),
     inventory_image = "moarmour_inv_helmet_obsidian.png",
