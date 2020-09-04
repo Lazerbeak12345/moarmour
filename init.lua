@@ -9,4 +9,4 @@ moarmour = {
 -- Loading the files --
 dofile(moarmour_path.."/nodes.lua")
 dofile(moarmour_path.."/crafts.lua")
-dofile(moarmour_path.."/armor.lua")
+dofile(moarmour_path.."/armour.lua")
