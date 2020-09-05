@@ -1,5 +1,6 @@
 local S = moarmour.get_translator
 
+minetest.register_alias("armor_addon:ibrogblock", "moarmour:ibrogblock")
 minetest.register_node("moarmour:ibrogblock", {
   description = S("Ibrog"),
   drawtype = "glasslike_framed_optional",
@@ -11,6 +12,7 @@ minetest.register_node("moarmour:ibrogblock", {
   groups = {cracky = 3},
 })
 
+minetest.register_alias("armor_addon:waffleblock", "moarmour:waffleblock")
 minetest.register_node("moarmour:waffleblock", {
   description = S("Waffle Block"),
   tiles = {"moarmour_waffleblock.png"},

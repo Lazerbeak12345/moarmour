@@ -31,6 +31,7 @@ local craft_ingreds = {
 }
 
 for k, v in pairs(craft_ingreds) do
+  minetest.register_alias("armor_addon:helmet_"..k, "moarmour:helmet_"..k)
   minetest.register_craft({
     output = "moarmour:helmet_"..k,
     recipe = {
@@ -39,6 +40,7 @@ for k, v in pairs(craft_ingreds) do
       {"", "", ""},
     },
   })
+  minetest.register_alias("armor_addon:chestplate_"..k, "moarmour:chestplate_"..k)
   minetest.register_craft({
     output = "moarmour:chestplate_"..k,
     recipe = {
@@ -47,6 +49,7 @@ for k, v in pairs(craft_ingreds) do
       {v,  v, v},
     },
   })
+  minetest.register_alias("armor_addon:leggings_"..k, "moarmour:leggings_"..k)
   minetest.register_craft({
     output = "moarmour:leggings_"..k,
     recipe = {
@@ -55,6 +58,7 @@ for k, v in pairs(craft_ingreds) do
       {v, "", v},
     },
   })
+  minetest.register_alias("armor_addon:boots_"..k, "moarmour:boots_"..k)
   minetest.register_craft({
     output = "moarmour:boots_"..k,
     recipe = {
@@ -62,6 +66,7 @@ for k, v in pairs(craft_ingreds) do
       {v, "", v},
     },
   })
+  minetest.register_alias("armor_addon:shield_"..k, "moarmour:shield_"..k)
   minetest.register_craft({
     output = "moarmour:shield_"..k,
     recipe = {
@@ -114,6 +119,7 @@ minetest.register_craft ({
     {"bones:bones", "bones:bones"}
   }
 })
+minetest.register_alias("armor_addon:bone", "moarmour:boneplate")
 minetest.register_craftitem ("moarmour:boneplate", {
   description = S("Bone Plate"),
   inventory_image = "moarmour_bone_plate.png"
@@ -121,46 +127,46 @@ minetest.register_craftitem ("moarmour:boneplate", {
 minetest.register_craft ({
   output = 'moarmour:boneplate 9',
   recipe = {
-    {'moarmour:bonepile', 'default:diamondblock', 'moarmour:bonepile'},
-    {'default:diamondblock', 'moarmour:bonepile', 'default:diamondblock'},
-    {'moarmour:bonepile', 'default:diamondblock', 'moarmour:bonepile'},
+    {   'moarmour:bonepile', 'default:diamondblock',    'moarmour:bonepile'},
+    {'default:diamondblock',    'moarmour:bonepile', 'default:diamondblock'},
+    {   'moarmour:bonepile', 'default:diamondblock',    'moarmour:bonepile'},
   }
 })
 minetest.register_craft({
   output = 'moarmour:boots_tacnayn',
   recipe = {
-    {'moarmour:boots_waffle', '', 'moarmour:boots_rainbow'},
-    {'tac_nayn:tacnayn_rainbow', '',  'tac_nayn:tacnayn_rainbow'},
+    {   'moarmour:boots_waffle',  '',    'moarmour:boots_rainbow'},
+    {'tac_nayn:tacnayn_rainbow',  '',  'tac_nayn:tacnayn_rainbow'},
   }
 })
 minetest.register_craft({
   output = 'moarmour:chestplate_tacnayn',
   recipe = {
-    {     'tac_nayn:tacnayn_rainbow',                         '',       'tac_nayn:tacnayn_rainbow'},
-    {'moarmour:chestplate_waffle', 'tac_nayn:tacnayn_rainbow', 'moarmour:chestplate_rainbow'},
-    {     'tac_nayn:tacnayn_rainbow', 'tac_nayn:tacnayn_rainbow',       'tac_nayn:tacnayn_rainbow'},
+    {  'tac_nayn:tacnayn_rainbow',                         '',       'tac_nayn:tacnayn_rainbow'},
+    {'moarmour:chestplate_waffle', 'tac_nayn:tacnayn_rainbow',    'moarmour:chestplate_rainbow'},
+    {  'tac_nayn:tacnayn_rainbow', 'tac_nayn:tacnayn_rainbow',       'tac_nayn:tacnayn_rainbow'},
   }
 })
 minetest.register_craft({
   output = 'moarmour:helmet_tacnayn',
   recipe = {
-    {'moarmour:helmet_waffle', 'tac_nayn:tacnayn_rainbow', 'moarmour:helmet_rainbow'},
-    { 'tac_nayn:tacnayn_rainbow',                         '',   'tac_nayn:tacnayn_rainbow'},
+    {  'moarmour:helmet_waffle', 'tac_nayn:tacnayn_rainbow',    'moarmour:helmet_rainbow'},
+    {'tac_nayn:tacnayn_rainbow',                         '',   'tac_nayn:tacnayn_rainbow'},
   }
 })
 minetest.register_craft({
   output = 'moarmour:leggings_tacnayn',
   recipe = {
-    { 'tac_nayn:tacnayn_rainbow',  'tac_nayn:tacnayn_rainbow',   'tac_nayn:tacnayn_rainbow'},
-    {'moarmour:helmet_waffle',                          '', 'moarmour:helmet_rainbow'},
-    { 'tac_nayn:tacnayn_rainbow',                          '',   'tac_nayn:tacnayn_rainbow'},
+    {'tac_nayn:tacnayn_rainbow',  'tac_nayn:tacnayn_rainbow',   'tac_nayn:tacnayn_rainbow'},
+    {  'moarmour:helmet_waffle',                          '',    'moarmour:helmet_rainbow'},
+    {'tac_nayn:tacnayn_rainbow',                          '',   'tac_nayn:tacnayn_rainbow'},
   }
 })
 minetest.register_craft({
   output = 'moarmour:shield_tacnayn',
   recipe = {
-    {'moarmour:shield_waffle', 'tac_nayn:tacnayn_rainbow', 'moarmour:shield_rainbow'},
-    { 'tac_nayn:tacnayn_rainbow',         'tac_nayn:tacnayn',   'tac_nayn:tacnayn_rainbow'},
-    {                         '', 'tac_nayn:tacnayn_rainbow',                           ''},
+    {  'moarmour:shield_waffle', 'tac_nayn:tacnayn_rainbow',  'moarmour:shield_rainbow'},
+    {'tac_nayn:tacnayn_rainbow',         'tac_nayn:tacnayn', 'tac_nayn:tacnayn_rainbow'},
+    {                        '', 'tac_nayn:tacnayn_rainbow',                         ''},
   }
 })
