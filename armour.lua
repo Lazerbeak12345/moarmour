@@ -1,7 +1,7 @@
 local S = moarmour.get_translator
 
 -- Armours --
-minetest.register_tool("moarmour:helmet_obsidian", {
+  minetest.register_tool("moarmour:helmet_obsidian", {
     description = S("Obsidian Helmet"),
     inventory_image = "moarmour_inv_helmet_obsidian.png",
     groups = {armor_head=22.5, armor_heal=18, armor_use=300},
@@ -24,14 +24,15 @@ minetest.register_tool("moarmour:helmet_obsidian", {
     inventory_image = "moarmour_inv_boots_obsidian.png",
     groups = {armor_feet=22.5, armor_heal=18, armor_use=300},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_obsidian", {
+  })
+  minetest.register_tool("moarmour:shield_obsidian", {
     description = S("Obsidian Shield"),
     inventory_image = "moarmour_inv_shield_obsidian.png",
     groups = {armor_shield=22.5, armor_heal=18, armor_use=300},
     wear = 0,
   })
-minetest.register_tool("moarmour:helmet_tin", {
+
+  minetest.register_tool("moarmour:helmet_tin", {
     description = S("Tin Helmet"),
     inventory_image = "moarmour_inv_helmet_tin.png",
     groups = {armor_head=6, armor_heal=0, armor_use=800},
@@ -54,14 +55,15 @@ minetest.register_tool("moarmour:helmet_tin", {
     inventory_image = "moarmour_inv_boots_tin.png",
     groups = {armor_feet=6, armor_heal=0, armor_use=800},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_tin", {
+  })
+  minetest.register_tool("moarmour:shield_tin", {
     description = S("Tin Shield"),
     inventory_image = "moarmour_inv_shield_tin.png",
     groups = {armor_shield=6, armor_heal=0, armor_use=800},
     wear = 0,
   })
-minetest.register_tool("moarmour:helmet_brick", {
+
+  minetest.register_tool("moarmour:helmet_brick", {
     description = S("Brick Helmet"),
     inventory_image = "moarmour_inv_helmet_brick.png",
     groups = {armor_head=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
@@ -84,8 +86,8 @@ minetest.register_tool("moarmour:helmet_brick", {
     inventory_image = "moarmour_inv_boots_brick.png",
     groups = {armor_feet=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_brick", {
+  })
+  minetest.register_tool("moarmour:shield_brick", {
     description = S("Brick Shield"),
     inventory_image = "moarmour_inv_shield_brick.png",
     groups = {armor_shield=12, armor_heal=4, armor_use=1100, physics_speed=-0.10, physics_jump=-0.05},
@@ -94,7 +96,7 @@ minetest.register_tool("moarmour:helmet_brick", {
 
 if minetest.get_modpath("moreores") then
 
-minetest.register_tool("moarmour:helmet_silver", {
+  minetest.register_tool("moarmour:helmet_silver", {
     description = S("Silver Helmet"),
     inventory_image = "moarmour_inv_helmet_silver.png",
     groups = {armor_head=10, armor_heal=5, armor_use=700},
@@ -117,14 +119,15 @@ minetest.register_tool("moarmour:helmet_silver", {
     inventory_image = "moarmour_inv_boots_silver.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=700},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_silver", {
+  })
+  minetest.register_tool("moarmour:shield_silver", {
     description = S("Silver Shield"),
     inventory_image = "moarmour_inv_shield_silver.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=700},
     wear = 0,
   })
-minetest.register_tool("moarmour:helmet_rhodo", {
+
+  minetest.register_tool("moarmour:helmet_rhodo", {
     description = S("Rhodochrosite Helmet"),
     inventory_image = "moarmour_inv_helmet_rhodo.png",
     groups = {armor_head=15, armor_heal=12, armor_use=200},
@@ -147,8 +150,8 @@ minetest.register_tool("moarmour:helmet_rhodo", {
     inventory_image = "moarmour_inv_boots_rhodo.png",
     groups = {armor_feet=15, armor_heal=12, armor_use=200},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_rhodo", {
+  })
+  minetest.register_tool("moarmour:shield_rhodo", {
     description = S("Rhodochrosite Shield"),
     inventory_image = "moarmour_inv_shield_rhodo.png",
     groups = {armor_shield=15, armor_heal=12, armor_use=200},
@@ -159,7 +162,7 @@ end
 
 if minetest.get_modpath("nyancats_plus") then
 
-minetest.register_tool("moarmour:helmet_rainbow", {
+  minetest.register_tool("moarmour:helmet_rainbow", {
     description = S("Rainbow Helmet"),
     inventory_image = "moarmour_inv_helmet_rainbow.png",
     groups = {armor_head=16.5, armor_heal=12, armor_use=0},
@@ -182,8 +185,8 @@ minetest.register_tool("moarmour:helmet_rainbow", {
     inventory_image = "moarmour_inv_boots_rainbow.png",
     groups = {armor_feet=16.5, armor_heal=12, armor_use=0},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_rainbow", {
+  })
+  minetest.register_tool("moarmour:shield_rainbow", {
     description = S("Rainbow Shield"),
     inventory_image = "moarmour_inv_shield_rainbow.png",
     groups = {armor_shield=16.5, armor_heal=12, armor_use=0},
@@ -194,7 +197,7 @@ end
 
 if minetest.get_modpath("waffles") then
 
-minetest.register_tool("moarmour:helmet_waffle", {
+  minetest.register_tool("moarmour:helmet_waffle", {
     description = S("Waffle Helmet"),
     inventory_image = "moarmour_inv_helmet_waffle.png",
     groups = {armor_head=15, armor_heal=12, armor_use=200},
@@ -217,8 +220,8 @@ minetest.register_tool("moarmour:helmet_waffle", {
     inventory_image = "moarmour_inv_boots_waffle.png",
     groups = {armor_feet=15, armor_heal=12, armor_use=200},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_waffle", {
+  })
+  minetest.register_tool("moarmour:shield_waffle", {
     description = S("Waffle Shield"),
     inventory_image = "moarmour_inv_shield_waffle.png",
     groups = {armor_shield=15, armor_heal=12, armor_use=200},
@@ -229,7 +232,7 @@ end
 
 if minetest.get_modpath("farming") then
 
-minetest.register_tool("moarmour:helmet_chocolate", {
+  minetest.register_tool("moarmour:helmet_chocolate", {
     description = S("Chocolate Helmet"),
     inventory_image = "moarmour_inv_helmet_chocolate.png",
     groups = {armor_head=10, armor_heal=5, armor_use=800},
@@ -252,8 +255,8 @@ minetest.register_tool("moarmour:helmet_chocolate", {
     inventory_image = "moarmour_inv_boots_chocolate.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=800},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_chocolate", {
+  })
+  minetest.register_tool("moarmour:shield_chocolate", {
     description = S("Chocolate Shield"),
     inventory_image = "moarmour_inv_shield_chocolate.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=800},
@@ -264,7 +267,7 @@ end
 
 if minetest.get_modpath("nanotech") then
 
-minetest.register_tool("moarmour:helmet_carbonfiber", {
+  minetest.register_tool("moarmour:helmet_carbonfiber", {
     description = S("Carbonfiber Helmet"),
     inventory_image = "moarmour_inv_helmet_carbonfiber.png",
     groups = {armor_head=22.5, armor_heal=18, armor_use=165},
@@ -287,8 +290,8 @@ minetest.register_tool("moarmour:helmet_carbonfiber", {
     inventory_image = "moarmour_inv_boots_carbonfiber.png",
     groups = {armor_feet=22.5, armor_heal=18, armor_use=165},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_carbonfiber", {
+  })
+  minetest.register_tool("moarmour:shield_carbonfiber", {
     description = S("Carbonfiber Shield"),
     inventory_image = "moarmour_inv_shield_carbonfiber.png",
     groups = {armor_shield=22.5, armor_heal=18, armor_use=165},
@@ -299,7 +302,7 @@ end
 
 if minetest.get_modpath("xpanes") then
 
-minetest.register_tool("moarmour:helmet_ibrog", {
+  minetest.register_tool("moarmour:helmet_ibrog", {
     description = S("Ibrog Helmet"),
     inventory_image = "moarmour_inv_helmet_ibrog.png",
     groups = {armor_head=15, armor_heal=12, armor_use=200},
@@ -322,8 +325,8 @@ minetest.register_tool("moarmour:helmet_ibrog", {
     inventory_image = "moarmour_inv_boots_ibrog.png",
     groups = {armor_feet=15, armor_heal=12, armor_use=200},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_ibrog", {
+  })
+  minetest.register_tool("moarmour:shield_ibrog", {
     description = S("Ibrog Shield"),
     inventory_image = "moarmour_inv_shield_ibrog.png",
     groups = {armor_shield=15, armor_heal=12, armor_use=200},
@@ -334,7 +337,7 @@ end
 
 if minetest.get_modpath("even_mosword") then
 
-minetest.register_tool("moarmour:helmet_hero", {
+  minetest.register_tool("moarmour:helmet_hero", {
     description = S("Hero Mese Helmet"),
     inventory_image = "moarmour_inv_helmet_hero.png",
     groups = {armor_head=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
@@ -357,8 +360,8 @@ minetest.register_tool("moarmour:helmet_hero", {
     inventory_image = "moarmour_inv_boots_hero.png",
     groups = {armor_feet=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_hero", {
+  })
+  minetest.register_tool("moarmour:shield_hero", {
     description = S("Hero Mese Shield"),
     inventory_image = "moarmour_inv_shield_hero.png",
     groups = {armor_shield=56, armor_heal=45, armor_use=150, physics_jump=0.20,physics_speed=0.20,},
@@ -369,7 +372,7 @@ end
 
 if minetest.get_modpath("candycane") then
 
-minetest.register_tool("moarmour:helmet_cane", {
+  minetest.register_tool("moarmour:helmet_cane", {
     description = S("Candycane Helmet"),
     inventory_image = "moarmour_inv_helmet_cane.png",
     groups = {armor_head=15, armor_heal=12, armor_use=200},
@@ -392,8 +395,8 @@ minetest.register_tool("moarmour:helmet_cane", {
     inventory_image = "moarmour_inv_boots_cane.png",
     groups = {armor_feet=15, armor_heal=12, armor_use=200},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_cane", {
+  })
+  minetest.register_tool("moarmour:shield_cane", {
     description = S("Candycane Shield"),
     inventory_image = "moarmour_inv_shield_cane.png",
     groups = {armor_shield=15, armor_heal=12, armor_use=200},
@@ -404,7 +407,7 @@ end
 
 if minetest.get_modpath("bones") then
 
-minetest.register_tool("moarmour:helmet_skeletal", {
+  minetest.register_tool("moarmour:helmet_skeletal", {
     description = S("Skeletal Helmet"),
     inventory_image = "moarmour_inv_helmet_skeletal.png",
     groups = {armor_head=30, armor_heal=15, armor_use=80},
@@ -427,8 +430,8 @@ minetest.register_tool("moarmour:helmet_skeletal", {
     inventory_image = "moarmour_inv_boots_skeletal.png",
     groups = {armor_feet=30, armor_heal=15, armor_use=80},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_skeletal", {
+  })
+  minetest.register_tool("moarmour:shield_skeletal", {
     description = S("Skeletal Shield"),
     inventory_image = "moarmour_inv_shield_skeletal.png",
     groups = {armor_shield=30, armor_heal=15, armor_use=80},
@@ -439,7 +442,7 @@ end
 
 if minetest.get_modpath("nyancats_plus") and minetest.get_modpath("waffles") and minetest.get_modpath("tac_nayn") then
 
-minetest.register_tool("moarmour:helmet_tacnayn", {
+  minetest.register_tool("moarmour:helmet_tacnayn", {
     description = S("Tac Nayn Helmet"),
     inventory_image = "moarmour_inv_helmet_tacnayn.png",
     groups = {armor_head=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
@@ -462,8 +465,8 @@ minetest.register_tool("moarmour:helmet_tacnayn", {
     inventory_image = "moarmour_inv_boots_tacnayn.png",
     groups = {armor_feet=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_tacnayn", {
+  })
+  minetest.register_tool("moarmour:shield_tacnayn", {
     description = S("Tac Nayn Shield"),
     inventory_image = "moarmour_inv_shield_tacnayn.png",
     groups = {armor_shield=30, armor_heal=30, armor_use=0, physics_jump=0.05, physics_speed=0.10, radiation=40, armor_fire=5},
@@ -474,7 +477,7 @@ end
 
 if minetest.get_modpath("sky_tools") then
 
-minetest.register_tool("moarmour:helmet_sky", {
+  minetest.register_tool("moarmour:helmet_sky", {
     description = S("Sky Helmet"),
     inventory_image = "moarmour_inv_helmet_sky.png",
     groups = {armor_head=15, armor_heal=14, armor_use=175},
@@ -497,8 +500,8 @@ minetest.register_tool("moarmour:helmet_sky", {
     inventory_image = "moarmour_inv_boots_sky.png",
     groups = {armor_feet=15, armor_heal=14, armor_use=175},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_sky", {
+  })
+  minetest.register_tool("moarmour:shield_sky", {
     description = S("Sky Shield"),
     inventory_image = "moarmour_inv_shield_sky.png",
     groups = {armor_shield=15, armor_heal=14, armor_use=175},
@@ -509,7 +512,7 @@ end
 
 if minetest.get_modpath("emeralds") then
 
-minetest.register_tool("moarmour:helmet_emeralds", {
+  minetest.register_tool("moarmour:helmet_emeralds", {
     description = S("Emeralds Helmet"),
     inventory_image = "moarmour_inv_helmet_emeralds.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70},
@@ -532,8 +535,8 @@ minetest.register_tool("moarmour:helmet_emeralds", {
     inventory_image = "moarmour_inv_boots_emeralds.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_emeralds", {
+  })
+  minetest.register_tool("moarmour:shield_emeralds", {
     description = S("Emeralds Shield"),
     inventory_image = "moarmour_inv_shield_emeralds.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70},
@@ -544,7 +547,7 @@ end
 
 if minetest.get_modpath("gems") then
 
-minetest.register_tool("moarmour:helmet_emerald", {
+  minetest.register_tool("moarmour:helmet_emerald", {
     description = S("Emerald Helmet"),
     inventory_image = "moarmour_inv_helmet_emerald.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70, radiation=15},
@@ -567,15 +570,15 @@ minetest.register_tool("moarmour:helmet_emerald", {
     inventory_image = "moarmour_inv_boots_emerald.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70, radiation=15},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_emerald", {
+  })
+  minetest.register_tool("moarmour:shield_emerald", {
     description = S("Emerald Shield"),
     inventory_image = "moarmour_inv_shield_emerald.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70, radiation=15},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_pearl", {
+  minetest.register_tool("moarmour:helmet_pearl", {
     description = S("Pearl Helmet"),
     inventory_image = "moarmour_inv_helmet_pearl.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70, armor_water=1},
@@ -598,15 +601,15 @@ minetest.register_tool("moarmour:helmet_pearl", {
     inventory_image = "moarmour_inv_boots_pearl.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70, armor_water=1},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_pearl", {
+  })
+  minetest.register_tool("moarmour:shield_pearl", {
     description = S("Pearl Shield"),
     inventory_image = "moarmour_inv_shield_pearl.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70, armor_water=1},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_amethyst", {
+  minetest.register_tool("moarmour:helmet_amethyst", {
     description = S("Amethyst Helmet"),
     inventory_image = "moarmour_inv_helmet_amethyst.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70, physics_speed=0.20},
@@ -629,15 +632,15 @@ minetest.register_tool("moarmour:helmet_amethyst", {
     inventory_image = "moarmour_inv_boots_amethyst.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70, physics_speed=0.20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_amethyst", {
+  })
+  minetest.register_tool("moarmour:shield_amethyst", {
     description = S("Amethyst Shield"),
     inventory_image = "moarmour_inv_shield_amethyst.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70, physics_speed=0.20},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_sapphire", {
+  minetest.register_tool("moarmour:helmet_sapphire", {
     description = S("Sapphire Helmet"),
     inventory_image = "moarmour_inv_helmet_sapphire.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
@@ -660,15 +663,15 @@ minetest.register_tool("moarmour:helmet_sapphire", {
     inventory_image = "moarmour_inv_boots_sapphire.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_sapphire", {
+  })
+  minetest.register_tool("moarmour:shield_sapphire", {
     description = S("Sapphire Shield"),
     inventory_image = "moarmour_inv_shield_sapphire.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70, physics_gravity=-0.20},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_ruby", {
+  minetest.register_tool("moarmour:helmet_ruby", {
     description = S("Ruby Helmet"),
     inventory_image = "moarmour_inv_helmet_ruby.png",
     groups = {armor_head=10, armor_heal=5, armor_use=70, armor_fire=5},
@@ -691,15 +694,15 @@ minetest.register_tool("moarmour:helmet_ruby", {
     inventory_image = "moarmour_inv_boots_ruby.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=70, armor_fire=5},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_ruby", {
+  })
+  minetest.register_tool("moarmour:shield_ruby", {
     description = S("Ruby Shield"),
     inventory_image = "moarmour_inv_shield_ruby.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=70, armor_fire=5},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_shadow", {
+  minetest.register_tool("moarmour:helmet_shadow", {
     description = S("Shadow Helmet"),
     inventory_image = "moarmour_inv_helmet_shadow.png",
     groups = {armor_head=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
@@ -722,8 +725,8 @@ minetest.register_tool("moarmour:helmet_shadow", {
     inventory_image = "moarmour_inv_boots_shadow.png",
     groups = {armor_feet=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_shadow", {
+  })
+  minetest.register_tool("moarmour:shield_shadow", {
     description = S("Shadow Shield"),
     inventory_image = "moarmour_inv_shield_shadow.png",
     groups = {armor_shield=10, armor_heal=5, armor_use=0, physics_speed=0.10, physics_gravity=-0.10, radiation=8, armor_water=1, armor_fire=5},
@@ -734,7 +737,7 @@ end
 
 if minetest.get_modpath("terumet") then
 
-minetest.register_tool("moarmour:helmet_cgls", {
+  minetest.register_tool("moarmour:helmet_cgls", {
     description = S("Coreglass Helmet"),
     inventory_image = "moarmour_inv_helmet_cgls.png",
     groups = {armor_head=19, armor_heal=2, armor_use=20},
@@ -753,19 +756,19 @@ minetest.register_tool("moarmour:helmet_cgls", {
     wear = 0,
   })
   minetest.register_tool("moarmour:boots_cgls", {
-                description = S("Coreglass Boots"),
+    description = S("Coreglass Boots"),
     inventory_image = "moarmour_inv_boots_cgls.png",
     groups = {armor_feet=19, armor_heal=2, armor_use=20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_cgls", {
+  })
+  minetest.register_tool("moarmour:shield_cgls", {
     description = S("Coreglass Shield"),
     inventory_image = "moarmour_inv_shield_cgls.png",
     groups = {armor_shield=19, armor_heal=2, armor_use=20},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_tcop", {
+  minetest.register_tool("moarmour:helmet_tcop", {
     description = S("Terucopper Helmet"),
     inventory_image = "moarmour_inv_helmet_tcop.png",
     groups = {armor_head=13, armor_heal=1, armor_use=20},
@@ -788,15 +791,15 @@ minetest.register_tool("moarmour:helmet_tcop", {
     inventory_image = "moarmour_inv_boots_tcop.png",
     groups = {armor_feet=13, armor_heal=1, armor_use=20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_tcop", {
+  })
+  minetest.register_tool("moarmour:shield_tcop", {
     description = S("Terucopper Shield"),
     inventory_image = "moarmour_inv_shield_tcop.png",
     groups = {armor_shield=13, armor_heal=1, armor_use=20},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_tcha", {
+  minetest.register_tool("moarmour:helmet_tcha", {
     description = S("Teruchalcum Helmet"),
     inventory_image = "moarmour_inv_helmet_tcha.png",
     groups = {armor_head=16.5, armor_heal=1, armor_use=20},
@@ -819,15 +822,15 @@ minetest.register_tool("moarmour:helmet_tcha", {
     inventory_image = "moarmour_inv_boots_tcha.png",
     groups = {armor_feet=16.5, armor_heal=1, armor_use=20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_tcha", {
+  })
+  minetest.register_tool("moarmour:shield_tcha", {
     description = S("Teruchalcum Shield"),
     inventory_image = "moarmour_inv_shield_tcha.png",
     groups = {armor_shield=16.5, armor_heal=1, armor_use=20},
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_tgol", {
+  minetest.register_tool("moarmour:helmet_tgol", {
     description = S("Terugold Helmet"),
     inventory_image = "moarmour_inv_helmet_tgol.png",
     groups = {armor_head=16.5, armor_heal=1, armor_use=20},
@@ -858,7 +861,7 @@ minetest.register_tool("moarmour:helmet_tgol", {
     wear = 0,
   })
 
-minetest.register_tool("moarmour:helmet_tste", {
+  minetest.register_tool("moarmour:helmet_tste", {
     description = S("Terusteel Helmet"),
     inventory_image = "moarmour_inv_helmet_tste.png",
     groups = {armor_head=15, armor_heal=1, armor_use=20},
@@ -881,8 +884,8 @@ minetest.register_tool("moarmour:helmet_tste", {
     inventory_image = "moarmour_inv_boots_tste.png",
     groups = {armor_feet=15, armor_heal=1, armor_use=20},
     wear = 0,
-        })
-        minetest.register_tool("moarmour:shield_tste", {
+  })
+  minetest.register_tool("moarmour:shield_tste", {
     description = S("Terusteel Shield"),
     inventory_image = "moarmour_inv_shield_tste.png",
     groups = {armor_shield=15, armor_heal=1, armor_use=20},
